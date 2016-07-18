@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+/*  transition + transform:scale  */
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    -moz-transition: width 1s;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+}
+.box:hover
+{
+    width: 300px;
+}
+</style>
+<body>
+    <div class="box"></div>
+</body>
+</html>

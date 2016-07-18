@@ -35,7 +35,9 @@
 	padding:2px 6px;
 	background-color:#78CCD2;
 	color:#186C72;
-	border-radius:4px;
+	-moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border-radius:4px;
 	margin:3px;
 	cursor:default;
 }
@@ -68,6 +70,7 @@
 	opacity:0;
 
 	/* Animate the transitions */
+  -moz-transition:opacity 0.4s;
 	-webkit-transition:opacity 0.4s;
 	transition:opacity 0.4s;
 }
